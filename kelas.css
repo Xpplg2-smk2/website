@@ -169,8 +169,8 @@ h1.judul {
   background-color: #ddd;
   width: 95%;
   height: 450px;
-  position: relative;
-  bottom: 520px;
+  position: absolute;
+  bottom: 200px;
   z-index: 999;
   margin: 5px;
   border-radius: 5px;
@@ -234,7 +234,7 @@ div::-webkit-scrollbar{
 img.str {
   position: relative;
   z-index: 9999;
-  transform: translateY(-495px);
+  transform: translateY(-200px);
 }
 
 .foter {
@@ -250,7 +250,7 @@ img.str {
   font-size: 15px;
   border-top: 2px dashed #dddddd;
   padding-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 350px;
 }
 
 .foter h4 {
@@ -262,7 +262,7 @@ img.str {
 
 img.pkt {
   position: absolute;
-  bottom: -20px;
+  bottom: -320px;
 }
 
 @media screen and (min-width: 600px) {
