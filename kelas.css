@@ -29,7 +29,7 @@ nav img {
   width: 420px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .kotak1 {
@@ -360,7 +360,7 @@ img.pkt {
   }
 
   .absen {
-    bottom: 600px;
+    bottom: -200px;
     z-index: 999;
     height: 800px;
     width: 90%;
@@ -374,19 +374,19 @@ img.pkt {
   }
 
   img.str {
-    transform: translateY(-625px);
+    transform: translateY(200px);
   }
 
   .foter {
     font-size: 15px;
     border-top: 5px dashed #dddddd;
     padding-bottom: 20px;
-    margin-top: 200px;
-    z-index: 9999;
+    margin-top: 1000px;
+    z-index: 999999;
   }
 
   img.pkt {
-    transform: translateY(180px);
+    transform: translateY(750px);
     width: 85%;
     margin: 8%;
   }
