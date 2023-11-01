@@ -29,7 +29,8 @@ nav img {
   width: 420px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  margin: auto;
+  justify-content: center;
 }
 
 .kotak1 {
@@ -172,14 +173,14 @@ h1.judul {
   position: absolute;
   bottom: 200px;
   z-index: 999;
-  margin: 5px;
+  margin: auto;
   border-radius: 5px;
   box-shadow: 0px 0px 20px #424242;
   color: #c8ad90;
   overflow: scroll;
   border: 3px dashed #c8ad90;
   background-size: cover;
-  padding-bottom: 40px;
+  margin-top: 100px;
 }
 
 div::-webkit-scrollbar{
@@ -234,6 +235,7 @@ div::-webkit-scrollbar{
 img.str {
   position: relative;
   z-index: 9999;
+  margin-top: 100px;
   transform: translateY(-200px);
 }
 
@@ -263,6 +265,7 @@ img.str {
 img.pkt {
   position: absolute;
   bottom: -320px;
+  margin-top: 120px;
 }
 
 @media screen and (min-width: 600px) {
