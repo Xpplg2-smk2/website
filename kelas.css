@@ -409,7 +409,6 @@ img.pkt {
 @media screen and (max-width: 420px) {
 
   #kotak {
-    margin: 5px;
     justify-content: flex-start;
   }
 
