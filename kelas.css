@@ -268,7 +268,7 @@ img.pkt {
   margin-top: 120px;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 600px) {
 
   body {
     background-image: url(13756439_5348108.jpg);
@@ -402,6 +402,15 @@ img.pkt {
   .absen a::after {
     left: 25px;
     width: 88%;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  #kotak {
+    margin: 5px;
+    justify-content: flex-start;
   }
 
 }
