@@ -24,7 +24,7 @@ function muncul() {
   for (let i = 0; i < elements.length; i++) {
     let tinggiLayar = window.innerHeight;
     let jarakAtasElemen = elements[i].getBoundingClientRect().top;
-    let ukuranScroll = 1;
+    let ukuranScroll = -200;
     
     if (jarakAtasElemen < tinggiLayar - ukuranScroll) {
       elements[i].classList.add('tampil');
@@ -36,4 +36,18 @@ function muncul() {
 
   }
 
+}
+
+function openLightbox(imageUrl) {
+  let lightbox = document.getElementById("lightbox");
+  let lightboxImg = document.getElementById("lightbox-img");
+
+  lightbox.style.display = "block";
+  lightboxImg.src = imageUrl;
+}
+
+function closeLightbox() {
+  let lightbox = document.getElementById("lightbox");
+
+  lightbox.style.display = "none";
 }
