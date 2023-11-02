@@ -564,8 +564,8 @@ form input[type="submit"]:hover {
   }
 
   #contact {
-    margin-top: 200px;
-    margin-bottom: 1200px;
+    margin-top: 300px;
+    bottom: -820px;
   }
   
 }
