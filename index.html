@@ -47,6 +47,16 @@
           class="panah2">></a>
         <h2 class="pls">PLAYLIST</h2>
       </div>
+
+      <div class="kotak3">
+        <img src="tt.png" alt="tiktok kami" class="ttk">
+        <a href="https://www.tiktok.com/@pplg2_smea?_t=8h0umPVuNlq&_r=1" class="panah3">></a>
+      </div>
+
+      <div class="kotak4">
+        <img src="ngl.png" alt="ngl kami" class="ngl">
+        <a href="https://ngl.link/pplg2_smea?fbclid=PAAaYHT0JeyfImVDadIvcLnKfouuSIn2k5Hymg6VN9uNVJqe9gGuZjRvRzaS" class="panah4">></a>
+      </div>
     </div>
 
     <br>
@@ -57,24 +67,28 @@
     <div class="cFoto">
       <div class="ktk"></div>
       <div class="slide">
-        <div class="fSlide">
-          <img src="gambar1.jpg" alt="histori">
+         <div class="fSlide">
+          <img src="gambar1.jpg" alt="histori" onclick="openLightbox('gambar1.jpg')">
         </div>
         <div class="fSlide">
-          <img src="gambar2.jpg" alt="histori">
+          <img src="gambar2.jpg" alt="histori" onclick="openLightbox('gambar2.jpg')">
         </div>
         <div class="fSlide">
-          <img src="gambar3.jpg" alt="histori">
+          <img src="gambar3.jpg" alt="histori" onclick="openLightbox('gambar3.jpg')">
         </div>
         <div class="fSlide">
-          <img src="gambar4.jpg" alt="histori">
+          <img src="gambar4.jpg" alt="histori" onclick="openLightbox('gambar4.jpg')">
         </div>
         <div class="fSlide">
-          <img src="gambar5.jpg" alt="histori">
+          <img src="gambar5.jpg" alt="histori" onclick="openLightbox('gambar5.jpg')">
         </div>
       </div>
     </div>
 
+  <div id="lightbox" onclick="closeLightbox()">
+      <img id="lightbox-img" src="">
+    </div>
+    
    <section>
     <div class="element">
       <div class="absen">
@@ -168,6 +182,16 @@
     </div>
     </section>
 
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formsubmit.co/pplg2smea@gmail.com" method="POST">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+    </form>
+  </section>
+    
     <div class="foter">
       <footer>
        <h4>welcome to web class 10 pplg 2, 
