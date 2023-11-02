@@ -562,13 +562,18 @@ form input[type="submit"]:hover {
     max-height: 80%;
     margin-top: 10%;
   }
+
+  #contact {
+    margin-top: 200px;
+    margin-bottom: 1200px;
+  }
   
 }
 
 @media screen and (max-width: 420px) {
 
   #kotak {
-    margin: -20px;
+    margin: -30px;
     justify-content: center;
     margin-top: 15px;
   }
